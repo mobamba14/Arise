@@ -1,5 +1,5 @@
 # INSTANT WEATHER
 
-- Esteban SELLIER ( et pas la cave )
+- Esteban SELLIER 
 - Romain LADEUILLE 
 - Celian Motte
