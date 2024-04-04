@@ -1,5 +1,5 @@
-# Arise
-INSTANT WEATHER
+# INSTANT WEATHER
+
 - Esteban SELLIER
 - Romain LADEUILLE
 - Celian MOTTE
