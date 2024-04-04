@@ -2,4 +2,4 @@
 
 - Esteban SELLIER
 - Romain LADEUILLE
-- Celian motte
+- Celian La Motte
