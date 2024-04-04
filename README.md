@@ -1,5 +1,5 @@
 # INSTANT WEATHER
 
 - Esteban SELLIER
-- Romain ENLADEUILLE qui repose en paix
+- Romain ENDEUILLE qui repose en paix
 - Celian La Motte
