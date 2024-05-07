@@ -1,15 +1,10 @@
 :root {
-  --color-primary: #f5fcfc;
-  --color-secondary: #0f3359;
-  --color-font: #ffffff;
-  --color-shadow: #0e061c;
+  border : solid;
+  border-color: rgb(255, 255, 255);
+  background-color: rgb(171, 229, 252);
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 body {
   margin: auto;
@@ -57,7 +52,6 @@ h1 {
 #cityForm_form input,
 #cityForm_form select {
   min-width: 280px;
-  /* width: 80%; */
 }
 
 .sr-only {
@@ -144,7 +138,7 @@ h1 {
   color: var(--color-secondary);
 }
 
-/* ------------------- MEDIA QUERIES ----------------------- */
+
 
 @media screen and (max-width: 1024px) {
   #weatherInformation {
