@@ -4,8 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instant weather</title>
+    <script src="https://kit.fontawesome.com/504828e594.js" crossorigin="anonymous"></script>    
+    <script defer src="app.js"></script>
+    <script defer src="weatherCard.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Instant Weather</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Météo instantanée</h1>
+        <p>Votre météo en un clic via le code postale de la commune de votre choix</p>
+      </header>
+      <main>
+        <section id="cityForm">
+          <form id="cityForm_form" action="dummy">
+            <label for="code-postal">Saisissez un code postal</label>
+            <input type="text" id="code-postal" placeholder="Entrez un code postal..."/>
+            <label for="communeSelect" class="sr-only" aria-label="Choix de la commune">Sélectionnez la commune</label>
+            <select id="communeSelect"></select>
+          </form>
+          <button id="validationButton">Valider</button>
+        </section>
+        <section id="tempmin">
+            <i class="fa-solid fa-temperature-low"></i>
+        </section>
+        <section id="tempmax">
+            <i class="fa-solid fa-temperature-high"></i>
+        </section>
+        <section id="pluie">
+            <i class="fa-solid fa-cloud-showers-heavy"></i>
+        </section>
+        <section id="soleil">
+            <i class="fa-solid fa-sun"></i>
+        </section>
+        </section>
+      </main>
 </body>
 </html>
